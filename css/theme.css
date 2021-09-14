@@ -568,6 +568,7 @@ th {
 td {
   padding: 0.5rem !important;
   border: 1px solid #eaeaea;
+  text-align: justify;
 }
 .button {
   background: #9c6fb6;
