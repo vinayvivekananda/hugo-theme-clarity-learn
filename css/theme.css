@@ -279,7 +279,6 @@ th {
   align-items: center;
   justify-content: center;
   height: 100%;
-  /* padding: 2rem 0; */
 }
 #chapter #body-inner {
   padding-bottom: 3rem;
@@ -287,7 +286,7 @@ th {
 h3 {
   font-family: "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   font-weight: 300;
-  text-align: center;
+  text-align: left;
   color: #5e5e5e;
 }
 h1 {
@@ -303,6 +302,9 @@ h1 {
 }
 #chapter p {
   text-align: justify;
+}
+#chapter h3 {
+  text-align: center;
 }
 #footer {
   padding: 3rem 1rem;
@@ -1063,15 +1065,14 @@ li > p {
   flex-direction: row-reverse;
 }
 
-
 @media only all and (max-width: 67.5em) {
-   .body-search {
-     display: flex;
-   }
-   .header-search {
-     display: none;
-   }
-   .navigation-buttons {
-      display: flex;
-   }
- }
+  .body-search {
+    display: flex;
+  }
+  .header-search {
+    display: none;
+  }
+  .navigation-buttons {
+    display: flex;
+  }
+}
