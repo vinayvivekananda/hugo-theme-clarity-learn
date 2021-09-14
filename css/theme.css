@@ -275,7 +275,6 @@ th {
   margin-bottom: 5rem;
 }
 #chapter {
-  display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
