@@ -190,7 +190,7 @@ th {
 }
 #sidebar ul li a {
   display: block;
-  padding: 2px 0;
+  padding: 2px;
   font-size: 0.7rem;
 }
 #sidebar ul li a span {
@@ -200,7 +200,7 @@ th {
   display: block;
 }
 #sidebar ul li > a {
-  padding: 4px 0;
+  padding: 4px 4px 4px 8px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
