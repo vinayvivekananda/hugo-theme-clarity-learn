@@ -21,6 +21,6 @@
   color: rgb(102, 102, 102) !important;
 }
 .top-table {
-  margin-left: 2em;
-  padding-right: 2em;
+  padding: 0 1em 1em;
+  background-color: black;
 }
