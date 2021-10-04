@@ -13,12 +13,16 @@
 .top-table th {
   padding: 0 !important;
 }
-.top-table th:hover {
-  border: 1px dashed yellow !important;
-}
+
 .top-table a.highlight,
 .top-table a:link {
   color: rgb(102, 102, 102) !important;
+  height: 100%;
+  width: 100%;
+  text-decoration: underline !important;
+}
+.top-table a:hover {
+  color: whitesmoke !important;
 }
 .top-table {
   padding: 0 1em 1em;
