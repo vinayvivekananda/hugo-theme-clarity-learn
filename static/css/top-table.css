@@ -1,0 +1,26 @@
+.top-table table,
+.top-table tbody,
+.top-table tr,
+.top-table td,
+.top-table th {
+  background-color: black;
+  border: 1px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.top-table td,
+.top-table th {
+  padding: 0 !important;
+}
+.top-table th:hover {
+  border: 1px dashed yellow !important;
+}
+.top-table a.highlight,
+.top-table a:link {
+  color: rgb(102, 102, 102) !important;
+}
+.top-table {
+  margin-left: 2em;
+  padding-right: 2em;
+}
