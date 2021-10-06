@@ -1,0 +1,30 @@
+.top-table table,
+.top-table tbody,
+.top-table tr,
+.top-table td,
+.top-table th {
+  background-color: black;
+  border: 1px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.top-table td,
+.top-table th {
+  padding: 0 !important;
+}
+
+.top-table a.highlight,
+.top-table a:link {
+  color: rgb(102, 102, 102) !important;
+  height: 100%;
+  width: 100%;
+  text-decoration: underline !important;
+}
+.top-table a:hover {
+  color: whitesmoke !important;
+}
+.top-table {
+  padding: 0 1em 1em;
+  background-color: black;
+}
