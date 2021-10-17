@@ -1,0 +1,5 @@
+{{ $file := trim ( .Get "file" ) " " }}
+{{ $prop := trim ( .Get "prop" ) " " }}
+{{- $baseurl := .Site.BaseURL}}
+
+<table class="datatable" file="{{print $baseurl $file }}"  prop="{{ $prop }}" ></table>
