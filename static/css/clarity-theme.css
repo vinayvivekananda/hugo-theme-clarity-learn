@@ -75,9 +75,9 @@ form.search {
 .menu .dd-item.active > div {
   background-color: #eee; }
 
-.menu .dd-item.active > div * {
+.menu .dd-item.active > div {
   font-weight: bold;
-  border-bottom: dotted 1px red; }
+  border-bottom:solid 1px #78BC20; }
 
 .menu .dd-item.haschildren > div {
   margin-left: -20px; }
