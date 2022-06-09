@@ -21,3 +21,105 @@ form.search {
   width: 100%;
   padding-left: 1em;
 }
+
+.sidenav {
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  left: 0;
+  bottom: 0;
+  width: 20rem;
+  overflow-y: auto;
+}
+
+.menu {
+  list-style-type: none; 
+}
+
+.menu > label {
+  display: block;
+  font-weight: 100;
+  font-size: 130%;
+  margin-left: 1rem; 
+}
+
+.menu ul {
+  display: none; 
+}
+
+.menu > .dd-item {
+  margin: 0rem 0px 0rem 20px; 
+}
+
+.menu .dd-item {
+  padding-left: 1rem;
+  list-style:none;
+  font-size: 10px; 
+}
+
+.menu .dd-item.alwaysopen > ul {
+  display: block; }
+
+.menu .dd-item.parent > ul {
+  display: block; }
+
+.menu .dd-item.active > ul {
+  display: block; }
+
+.menu .dd-item.active > div {
+  background-color: #eee; }
+
+.menu .dd-item.active > div {
+  font-weight: bold;
+  border-bottom:solid 1px #78BC20; }
+
+.menu .dd-item.haschildren > div {
+  margin-left: -20px; }
+.menu .dd-item div {
+  display: flex;
+  flex-direction: row; }
+.menu .dd-item div * {
+  line-height: inherit; }
+.menu .dd-item div i.read-icon {
+  display: none; }
+.menu .dd-item div i.category-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 1;
+  width: 20px;
+  cursor: pointer; }
+.menu .dd-item div a {
+  display: flex;
+  flex: 1;
+  order: 2;
+  padding: 0 0rem;
+  text-decoration: none; }
+  .menu .dd-item div a:hover, .menu .dd-item div a:focus, .menu .dd-item div a:active {
+    background-color: #eee;
+    border-radius: .2rem;
+    padding: 0 0rem; }
+.menu .dd-item div i.category-icon:active,
+.menu .dd-item div i.category-icon:focus,
+.menu .dd-item div i.category-icon:hover {
+  background-color: #eee;
+  border-radius: .2rem;
+  padding: 0 0rem; }
+.menu .dd-item li {
+  border-left: 1px solid lightgray; }
+
+a:link, a:visited {
+  color:#0072a3;
+}
+
+.menu .home-item {
+  padding-left: 0.75rem !important; 
+  list-style:none;
+  font-size: 10px; 
+}
